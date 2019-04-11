@@ -27,5 +27,40 @@ API предназначен для интеграции ATS Хантфлоу с
 Форматы ответа
 
 
-## Подразделения `/divisions`
+## Подразделения
+`GET /divisions`
 
+### Формат ответа
+```
+{
+    "items": [
+        {
+            "name": "name1",
+            "foreign": "1",
+            "items": [
+                {
+                    "name": "name2",
+                    "foreign": "2",
+                    "items": [
+                        {
+                            "name": "name3",
+                            "foreign": "3",
+                            "items": []
+                        },
+                        {
+                            "name": "name4",
+                            "foreign": "4",
+                            "items": []
+                        }                        
+                    ]
+                },
+                {
+                    "name": "name5",
+                    "foreign": "5",
+                    "items": []
+                }         
+          }
+     ]         
+}
+               
+```
