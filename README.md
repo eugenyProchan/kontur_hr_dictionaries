@@ -20,8 +20,11 @@ API предназначен для интеграции ATS Хантфлоу с
 
 ```
 {
-  Unaccess authorization
+  unaccess authorization
 }
 ```
+
+Форматы ответа
+
 
 Подразделения `/divisions`
