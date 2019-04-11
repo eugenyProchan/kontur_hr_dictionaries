@@ -4,34 +4,36 @@
 ### Формат ответа
 ```
 {
+    "code": "education",
+    "name": "Участие в образовательных программах",
     "items": [
         {
-            "name": "name1",
-            "foreign": "1",
-            "items": [
-                {
-                    "name": "name2",
-                    "foreign": "2",
-                    "items": [
-                        {
-                            "name": "name3",
-                            "foreign": "3",
-                            "items": []
-                        },
-                        {
-                            "name": "name4",
+          "foreign": "1",
+          "name": "name1",
+          "items": [
+              {
+                "foreign": "2",
+                "name": "name2",
+                "items": [
+                    {
+                      "foreign": "3",
+                      "name": "name3",
+                      "items": [
+                          {
                             "foreign": "4",
-                            "items": []
-                        }                        
-                    ]
-                },
-                {
-                    "name": "name5",
-                    "foreign": "5",
-                    "items": []
-                }         
-          }
-     ]         
+                            "name": "name4"
+                          },
+                          {
+                            "foreign": "5",
+                            "name": "name5"
+                          }
+                       ]
+                    }
+                 ]
+              }
+           ]
+        }
+    ]
 }
                
 ```
