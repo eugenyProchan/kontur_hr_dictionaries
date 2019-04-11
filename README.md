@@ -5,7 +5,7 @@
 
 1. `/divisions` - Подразделения
 2. `/projects` - Проекты
-3. `/education` - Мероприятия
+3. `/education` - Образовательыне мероприятия
 4. `/positions` - Должности
 5. `/specializations` - Специализации
 
