@@ -8,16 +8,20 @@
     "code": "position_shtat",
     "items": [
         {
-            "name": "name1"
+            "name": "name1",
+            "foreign": "1"
         },
         {
-            "name": "name2"
+            "name": "name2",
+            "foreign": "2"
         },
         {
-            "name": "name3"
+            "name": "name3",
+            "foreign": "3"
         }
 }
 ```
 Имя | Тип | Описание
  --- | --- | ---
  name |  string | Название должности
+ foreign |  string | Ключ в справочниках контура
