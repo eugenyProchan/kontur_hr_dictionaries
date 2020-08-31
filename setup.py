@@ -11,5 +11,5 @@ setup(
     version='0.0.1',
     description=long_description,
     long_description=long_description,
-    packages=find_packages(where='download_dictionaries_to_hf'),
+    packages=find_packages(),
 )
